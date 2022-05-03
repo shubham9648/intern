@@ -1,0 +1,59 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 74px;
+  border: 2px solid rebeccapurple;
+}
+
+.header h1 {
+  font-size: 1rem;
+}
+
+.header .rectangle {
+  width: 300px;
+  height: 22px;
+  border-color: #F2F2F2;
+  background: #F2F2F2;
+  border-radius: 21px;
+}
+
+.header ::-webkit-input-placeholder {
+  padding-left: 3rem;
+}
+
+.header :-ms-input-placeholder {
+  padding-left: 3rem;
+}
+
+.header ::-ms-input-placeholder {
+  padding-left: 3rem;
+}
+
+.header ::placeholder {
+  padding-left: 3rem;
+}
+
+.header .search {
+  position: fixed;
+  left: 29rem;
+  top: 2rem;
+}
+
+.header .text {
+  color: #2F6CE5;
+}
+
+.header span img {
+  margin-left: 0.3rem;
+}
+/*# sourceMappingURL=header.css.map */

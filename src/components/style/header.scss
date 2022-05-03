@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 74px;
+    border: 2px solid rebeccapurple;
+    h1{
+        font-size: 1rem;
+    }
+    .rectangle{
+    
+        width: 300px;
+        height: 22px;
+        border-color: #F2F2F2;
+        background: #F2F2F2;
+        border-radius: 21px;
+    }
+    ::placeholder{
+     padding-left: 3rem;
+    }
+    .search{
+        position: fixed;
+        left: 29rem;
+        top: 2rem;
+    }
+    .text{
+        color: #2F6CE5;
+    }
+    span{
+        img{
+            margin-left: 0.3rem;
+        }
+    }
+
+
+}
